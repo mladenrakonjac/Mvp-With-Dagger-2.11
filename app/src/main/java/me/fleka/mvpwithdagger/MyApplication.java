@@ -2,7 +2,6 @@ package me.fleka.mvpwithdagger;
 
 import dagger.android.AndroidInjector;
 import dagger.android.DaggerApplication;
-import me.fleka.mvpwithdagger.di.AppComponent;
 import me.fleka.mvpwithdagger.di.DaggerAppComponent;
 
 /**
@@ -19,9 +18,7 @@ public class MyApplication extends DaggerApplication{
 
     @Override
     protected AndroidInjector<? extends DaggerApplication> applicationInjector() {
-        AppComponent appComponent = DaggerAppComponent.builder().application(this).build();
-        appComponent.inject(this);
-        return appComponent;
+        return DaggerAppComponent.builder().application(this).build();
     }
 
 }
