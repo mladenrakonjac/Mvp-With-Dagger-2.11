@@ -19,6 +19,6 @@ class PresenterImpl implements MainContract.Presenter {
 
     @Override
     public void unsubscribe() {
-
+        //todo discard all async task
     }
 }
