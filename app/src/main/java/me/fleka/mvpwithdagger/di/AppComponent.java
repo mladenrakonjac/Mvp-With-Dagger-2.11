@@ -16,7 +16,8 @@ import dagger.android.support.AndroidSupportInjectionModule;
  */
 
 @Singleton
-@Component(modules = {AndroidSupportInjectionModule.class})
+@Component(modules = {AndroidSupportInjectionModule.class,
+        AppModule.class})
 public interface AppComponent extends AndroidInjector<DaggerApplication> {
 
     @Override
