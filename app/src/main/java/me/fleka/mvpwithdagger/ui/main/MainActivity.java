@@ -1,4 +1,4 @@
-package me.fleka.mvpwithdagger.di.main;
+package me.fleka.mvpwithdagger.ui.main;
 
 import android.os.Bundle;
 import android.widget.TextView;

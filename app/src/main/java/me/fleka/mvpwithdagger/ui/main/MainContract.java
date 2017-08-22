@@ -1,4 +1,4 @@
-package me.fleka.mvpwithdagger.di.main;
+package me.fleka.mvpwithdagger.ui.main;
 
 /**
  * Created by Mladen Rakonjac on 8/19/17.

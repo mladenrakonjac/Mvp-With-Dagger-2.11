@@ -3,7 +3,7 @@ package me.fleka.mvpwithdagger.di;
 import dagger.Module;
 import dagger.android.AndroidInjectionModule;
 import dagger.android.ContributesAndroidInjector;
-import me.fleka.mvpwithdagger.di.main.MainActivity;
+import me.fleka.mvpwithdagger.ui.main.MainActivity;
 import me.fleka.mvpwithdagger.di.main.MainActivityModule;
 import me.fleka.mvpwithdagger.di.scopes.PerActivity;
 

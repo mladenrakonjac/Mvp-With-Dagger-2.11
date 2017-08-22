@@ -3,6 +3,9 @@ package me.fleka.mvpwithdagger.di.main;
 import dagger.Binds;
 import dagger.Module;
 import dagger.Provides;
+import me.fleka.mvpwithdagger.ui.main.MainActivity;
+import me.fleka.mvpwithdagger.ui.main.MainContract;
+import me.fleka.mvpwithdagger.ui.main.PresenterImpl;
 
 /**
  * Created by Mladen Rakonjac on 8/19/17.

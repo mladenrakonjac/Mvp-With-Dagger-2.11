@@ -1,10 +1,10 @@
-package me.fleka.mvpwithdagger.di.main;
+package me.fleka.mvpwithdagger.ui.main;
 
 /**
  * Created by Mladen Rakonjac on 8/19/17.
  */
 
-class PresenterImpl implements MainContract.Presenter {
+public class PresenterImpl implements MainContract.Presenter {
 
     private MainContract.View view;
 
